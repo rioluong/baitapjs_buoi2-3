@@ -31,6 +31,7 @@
   </head>
   <body>
      <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="inner-accordion">
         <!-- bài tập 1 Tính tiền lương nhân viên -->
         <div class="accordion-item">
           <h2 class="accordion-header">
@@ -174,8 +175,79 @@
           </div>
         </div>
       </div>
-    
-        
+      
+    <!-- End bài tập 3  -->
+
+    <!-- Bài tập 4 Tính chu vi và diện tích hình chữ nhật  -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+          <i class="fa-solid fa-ruler-horizontal p-1"></i>
+          <b>Tính chu vi và diện tích</b>
+        </button>
+      </h2>
+      <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <div class="mb-3">
+            <label for="" class="form-label">Chiều dài</label>
+            <input
+              type="text"
+              class="form-control"
+              name=""
+              id="txt-dai"
+              aria-describedby="helpId"
+              placeholder="Nhập vào chiều dài"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="" class="form-label">Chiều rộng</label>
+            <input
+              type="text"
+              class="form-control"
+              name=""
+              id="txt-rong"
+              aria-describedby="helpId"
+              placeholder="Nhập vào chiều rộng"
+            />
+          </div>
+          <button class="btn btn-primary rounded-3 txt-btn4 ">Tính</button>
+          <div class="p-3 bg-info text-black mt-3 rounded-3 ketQua4">
+            <i class="fa-solid fa-circle-arrow-right text-light"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end bài tập 4  -->
+
+    <!-- Bài tập 5 Tính tổn 2 ký số  -->
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+          <i class="fa-solid fa-calculator p-1"></i>
+          <b>Tính tổng 2 ký số</b>
+        </button>
+      </h2>
+      <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+          <div class="mb-3">
+              <label for="" class="form-label">2 ký số </label>
+              <input
+                  type="text"
+                  class="form-control txt-form-input"
+                  name=""
+                  id="txt-number"
+                  aria-describedby="helpId"
+                  placeholder="Nhập 2 số "
+              />
+          </div>
+          <button class="btn btn-primary rounded-3 txt-btn5 ">Tính tổng</button>
+          <div class="p-3 bg-info text-black rounded-3 mt-3 ketQua5">
+              <i class="fa-solid fa-circle-arrow-right text-light"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
